@@ -1,26 +1,39 @@
 {
-  "name": "react-website",
+  "name": "react-portfolio-website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack server --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jnrchry/portfolio-website.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jnrchry/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/Jnrchry/portfolio-website#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.7",
+    "@babel/node": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
     "babel-loader": "^9.1.0",
     "css-loader": "^6.7.3",
     "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "path": "^0.12.7",
     "sass": "^1.57.1",
     "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
